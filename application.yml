@@ -3,5 +3,9 @@ eureka:
     service-url:
       defaultZone: http://192.168.40.132:10086/eureka
 spring:
+  redis:
+    database: 1
+    host: 192.168.40.132
+    password: 123456
   zipkin:
     base-url: http://192.168.40.132:9411/
